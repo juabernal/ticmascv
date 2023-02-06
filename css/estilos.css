@@ -1,0 +1,63 @@
+body {
+    background-color: rgba(255, 255, 255, 0.877);
+    font-family: 'Sansita', sans-serif;
+}
+h1 {
+    text-align: center;
+    
+}
+
+.item1 {
+    grid-area: miArea;
+    background-color: lightcoral !important;
+}
+.container {
+    background-color: lightblue;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 30% 35% 35%;
+}
+.container2 {
+    background-color: lightblue;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 100%;
+}
+.box { 
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 1px dotted white;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'miArea miArea . . .'
+                         'miArea miArea . . .';
+                         grid-template-columns: 30% 70%;
+    background-color: #2196F3;
+    
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    
+}
+
+div {
+    background-color: lightblue;
+    padding: 10px;
+    
+}
+
+div p {
+        
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 10px;
+}
